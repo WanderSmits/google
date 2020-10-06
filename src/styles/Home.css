@@ -44,3 +44,7 @@
   object-fit: contain;
   height: 12vh;
 }
+
+.home__body > img {
+  cursor: pointer;
+}
