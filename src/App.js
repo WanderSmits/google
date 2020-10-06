@@ -10,7 +10,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/search">
-            <h1>This is the search page</h1>
+            <SearchPage />
           </Route>
           <Route path="/">
             <Home />
@@ -19,7 +19,6 @@ function App() {
         {/*Landing page*/}
 
         {/* search results page*/}
-        <SearchPage />
       </Router>
     </div>
   );
